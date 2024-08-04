@@ -1,0 +1,42 @@
+.contact {
+    background-color: var(--black-color);
+}
+
+.contact-content p {
+    font-family: var(--secondary-text);
+    color: var(--white-color);
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    line-height: 28px;
+    font-size: 14px;
+    margin: 0 0 1rem 0;
+}
+
+.contact-img img {
+    height: 460px;
+    border-radius: var(--border-radius);
+    border-top: 5px solid var(--orange-color);
+    border-left: 5px solid var(--orange-color);
+}
+
+@media screen and (max-width: 1150px) {
+    .contact-img {
+        margin: 3rem 0 0 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .contact-img img {
+        width: 100%;
+        height: auto;
+    }
+    .contact-content p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .contact-content p {
+        font-size: 10px;
+    }
+}
